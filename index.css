@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+
+    .back{
+        display: flex;
+    
+        height: 100vh;
+        margin: 0px;
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .card{
+        display: flex;
+        width: 25%;
+        height: 60%;
+        background-color: rgb(230, 230, 230);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+        padding: 20px;
+        align-items: center;
+        flex-direction: column;
+
+
+    }
+
+    span{
+        display: flex;
+        text-align: center;
+        font-size: 2vw;
+    }
+    
+    @media screen and (max-width: 768px) {
+        span {
+            font-size: 4vw; /* Tamanho menor da fonte para telas menores */
+        }
+
+        .card{
+            display: flex;
+            width: 50%;
+            height: 60%;
+            background-color: rgb(230, 230, 230);
+            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+            padding: 20px;
+            align-items: center;
+            flex-direction: column;
+    
+    
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
