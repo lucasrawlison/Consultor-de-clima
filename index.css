@@ -1,13 +1,19 @@
-body{
-    margin: 0px;
-    padding: 0px;
+@font-face {
+    font-family: 'Gautami Bold';
+    src: url('fonts/gautami-bold.ttf') format('truetype');
+}
+    
+    body{
+        margin: 0px;
+        padding: 0px;
+        font-family: Gautami Bold, sans-serif;
     
     }
 
 
     .back{
         display: flex;
-    
+        background-color: rgba(204, 229, 253, 0.603);
         height: 100vh;
         margin: 0px;
         padding: 0px;
@@ -18,41 +24,65 @@ body{
 
     .card{
         display: flex;
-        width: 25%;
-        height: 60%;
-        background-color: rgb(230, 230, 230);
-        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
-        padding: 20px;
+        width: 285px;
+        height: 478px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.411);
+        /* padding: 20px; */
         align-items: center;
         flex-direction: column;
+        border-radius: 4px;
+        margin: 1%;
+        
 
 
     }
 
-    span{
-        display: flex;
+    #pinImg{
+        margin: 0;
+        padding: 0;
+        height: 15px;
+    }
+
+    #cidade{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+    }
+    
+    
+    #dia{
+        margin-bottom: 0;
+        font-size: 25px;
+        font-weight: bold;
+        margin-top: 10%
+    }
+    
+    #mes{
         text-align: center;
-        font-size: 2vw;
+        font-size: 17px;
+        color: rgb(99, 99, 99);
     }
-    
-    @media screen and (max-width: 768px) {
-        span {
-            font-size: 4vw; /* Tamanho menor da fonte para telas menores */
-        }
 
-        .card{
-            display: flex;
-            width: 50%;
-            height: 60%;
-            background-color: rgb(230, 230, 230);
-            box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
-            padding: 20px;
-            align-items: center;
-            flex-direction: column;
-    
-    
-        }
+    #imgclima{
+        margin-top: -1vw;
+        height: 50%;
+        margin-bottom: -21%;
     }
+
+    #status{
+        font-size: 15px;
+        color: rgb(99, 99, 99);
+        margin-bottom: -1vw;
+    }
+
+    #temp{
+        font-size: 5vw;
+    margin-top: 1.5vw;
+    }
+
+
+ 
     
     
     
