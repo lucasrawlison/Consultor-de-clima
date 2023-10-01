@@ -48,4 +48,3 @@ Para acessar o projeto remotamente acesse:
 - Lucas Rawlison
 - [@luc1497](https://github.com/luc1497)
 - luc1497@gmail.com
-
