@@ -79,6 +79,7 @@ if ("geolocation" in navigator){
             var tagDia = document.getElementById("dia");
             var tagMes = document.getElementById("mes");
             var tagstatus = document.getElementById("status");
+            var tagCidade = document.getElementById("cidade");
 
 
 
@@ -90,6 +91,7 @@ if ("geolocation" in navigator){
             var temp = tempo.main.temp;
             var status = tempo.weather["0"].description;
             var statusAlt = status.charAt(0).toUpperCase() + status.slice(1);
+            var cidade = tempo.name;
             console.log("temperatura: " + temp);
             console.log(statusAlt);
             
@@ -102,6 +104,7 @@ if ("geolocation" in navigator){
             tagDia.textContent = diaExten.toUpperCase();
             tagMes.textContent = nomeDoMes + ", " + diaNumero;
             tagstatus.textContent = statusAlt;
+            tagCidade.textContent = cidade;
 
             
 
