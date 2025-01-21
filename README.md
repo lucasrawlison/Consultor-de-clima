@@ -32,7 +32,7 @@ Acesse o diretório do projeto
 ## Acesso remoto
 Para acessar o projeto remotamente acesse:
 
-- [Consultor de Clima](https://luc1497.github.io/Consultor-de-clima/)
+- [Consultor de Clima](https://lucasrawlison.github.io/Consultor-de-clima/)
 
 - É importante permitir o acesso à localização pelo navegador ao acessar a página.
 
